@@ -24,7 +24,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              "gradin-start": "#FF3889",
+              "gradin-end": "#F00",
             },
           },
         },
@@ -172,7 +173,7 @@
       </section>
       <!--super clint section -->
       <section
-        class="my-24 rounded-xl bg-gradient-to-r from-[#FF0000] to-[#FF8938 px-16 py-24 flex flex-col lg:flex-row gap-12]"
+        class="my-24 rounded-xl bg-gradient-to-r from-gradin-start to-gradin-end px-16 py-24 flex flex-col lg:flex-row gap-12]"
       >
         <div class="flex items-center lg:pr-28">
           <!--new div section -->
@@ -248,7 +249,126 @@
           </div>
         </div>
       </section>
+      <!--News & Events section -->
+      <section>
+        <div>
+          <div class="text-center">
+            <h2 class="text-4xl font-extrabold mb-5">News & Events</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, <br />
+              or randomised words which don't look even slightly believable.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--tea section cup-tea-->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        <!--first tea-->
+        <div class="card card-compact bg-base-100 shadow-xl">
+          <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="text-2xl font-extrabold">
+              Collecting 8 points for discount
+            </h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <div class="mt-4">
+              <button class="font-extrabold">Learn More</button>
+            </div>
+            <div class="card-actions justify-end"></div>
+          </div>
+        </div>
+        <!--second tre-->
+        <div class="card card-compact bg-base-100 shadow-xl">
+          <figure><img src="images/tea-2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="text-2xl font-extrabold">
+              Collecting 8 points for discount
+            </h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <div class="card-actions">
+              <div class="mt-4">
+                <button class="font-extrabold">Loren more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--3rd section tea-->
+        <div class="card card-compact bg-base-100 shadow-xl">
+          <figure><img src="images/tea-3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="text-2xl font-extrabold">
+              Collecting 8 points for discount
+            </h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <div class="card-actions">
+              <div class="mt-4">
+                <button class="font-extrabold">Loren more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <!--footer section -->
+    <footer class="px-48 py-10 bg-base-200 text-base-content mt-24">
+      <div class="flex my-24 justify-between">
+        <img src="images/cup.png" alt="" />
+        <div class="flex gap-3">
+          <p><span>Ready to get strated?</span></p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <div class="footer">
+        <nav>
+          <header class="footer-title">Services</header>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Company</header>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Legal</header>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <header class="footer-title">Newsletter</header>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="py-4 bg-transparent border-b-2 border-black outline-none"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <aside class="mt-10 text-center">
+        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </aside>
+    </footer>
   </body>
 </html>
